@@ -21,7 +21,7 @@ public class Produto implements Serializable {
 	private String grupo;
 	private float preco;
 	private Integer saldo;
-	public Produto(String codigo, String descricao, String um, String grupo, float preco, Integer saldo) {
+	public Produto(String codigo, String descricao, String um, String grupo, float preco, Integer saldo,Integer id) {
 		super();
 		this.codigo = codigo;
 		this.descricao = descricao;

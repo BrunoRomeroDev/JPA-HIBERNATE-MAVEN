@@ -40,7 +40,7 @@ public class programa {
 		EntityManager emb = emfb.createEntityManager();
 		
 		
-		for(int i = 0;i<50;i++) {
+		for(int i = 0;i<70;i++) {
 			
 				
 			
@@ -73,18 +73,7 @@ public class programa {
 			}
 		}
 		
-		/*
-		Produto pro1 = new Produto("URT123", "Produto de venda","PC","CARREGADOR", 1,10);
-		
-		EntityManagerFactory emfpro = Persistence.createEntityManagerFactory("exemplo-jpa");
-		EntityManager empro = emfpro.createEntityManager();
-		empro.getTransaction();
-		empro.persist(pro1);
-		empro.getTransaction().commit();
-		emfpro.close();
-		emfpro.close();
-		System.out.println("OK!");
-		*/
+				
 	}
 
 }
